@@ -51,3 +51,4 @@ lr_prediction = lr.predict(x_forecast)
 
 svm_prediction = svr_rbf.predict(x_forecast)
 print(svm_prediction)
+
