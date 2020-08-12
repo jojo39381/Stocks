@@ -18,6 +18,7 @@ print(df.tail())
 
 X = np.array(df.drop(['Prediction'],1))
 
+
 X = X[:-forecast_out]
 
 
